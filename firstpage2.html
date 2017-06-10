@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+.abc ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color:#008080;
+	font size:20px;
+	font-family:sans-serifl;
+}
+
+.abc li {
+    float:left;
+}
+
+.abc li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 40px;
+    text-decoration: none;
+}
+
+.abc li a:hover {
+    background-color:#20B2AA;
+}
+
+ul.sub-menu{
+position:absolute;
+background-color:#008080;
+list-style-type:none;
+width:180px;
+opacity:0;
+}
+
+ul.sub-menu2{
+position:absolute;
+background-color:#008080;
+list-style-type:none;
+width:130px;
+height:60px;
+text-align:center;
+opacity:0;
+}
+
+
+ul.sub-menu li{
+    display:inline-block;
+    color: white;
+    text-align:justify;
+	height:55px;
+	width:180px;
+    text-decoration: none;
+	list-style-type:none;
+	
+	}
+	
+	
+ul.sub-menu2 li{
+display:inline-block;
+color: white;
+text-align:center;
+height:40px;
+width:130px;
+text-decoration:none;
+list-style-type:none;
+}
+	
+.abc li:hover .sub-menu{
+opacity:1;
+}
+.abc li:hover .sub-menu2{
+opacity:1;
+}
+
+
+
+</style>
+</head>
+<body>
+<nav class="abc">
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#Wedding Photographers">Wedding Photographers</a>
+  
+    <ul class="sub-menu">
+    <li><a href="dreamWeaver.php">Dream Weaver</a></li>
+	<li><a href="ishratAminPhotography.php">Ishrat Amin Photography</a></li>
+	<li><a href="weddingDiary.php">Wedding Diary</a></li>
+	<li><a href="weddingMoments.php">Wedding Moments</a></li>
+    <li><a href="creation.php">Creation</a></li>
+	<li><a href="Memorylane.php">Memory Lane</a></li>
+	<li><a href="weddingVision.php">Wedding Vision BD</a></li>
+    <li><a href="fnf.php">FNF</a></li>
+	<li><a href="weddingChronicle.php">Wedding Chronicle</a></li>
+	<li><a href="weddingFotografia.php">Wedding Fotografia</a></li>
+     </ul>  
+  </li>
+  <li><a href="#pictures">Pictures</a>
+  <ul class="sub-menu2">
+  <li><a href="Photos.html">Explore Pictures</a></li>
+  </ul>
+  </li>
+  <li style="float:right"><a href="#Login">Contact</a></li>
+  <li style="float:right"><a href="homepageLogout.php">Logout</a></li>
+   <li style="float:right"><a href="userActivity.php">My Activity</a></li>
+</ul>
+</nav>
+
+<script type="text/javascript">
+var image1=new Image();
+image1.src="1.jpg"
+
+var image2=new Image();
+image2.src="2.jpg"
+
+var image3=new Image();
+image3.src="3.jpg"
+
+var image4=new Image();
+image4.src="4.jpg"
+
+var image5=new Image();
+image5.src="5.jpg"
+
+var image6=new Image();
+image6.src="6.jpg"
+
+var image7=new Image();
+image7.src="7.jpg"
+
+
+var image8=new Image();
+image8.src="8.jpg"
+
+</script>
+</head>
+<body>
+<img src="1.jpg" name="slide" width="1350" height="650">
+<script type="text/javascript">
+var step=1;
+function slideIt(){
+document.images.slide.src=eval("image"+step+".src")
+if(step<8){
+step++;
+}else{
+step=1;
+}
+setTimeout("slideIt()",2500)
+}
+slideIt();
+</script>
+
+</body>
+</html>

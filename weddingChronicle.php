@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-color:#ECD8D3
+}
+</style>
+</head>
+<body>
+<h1> WELCOME TO Wedding Cronicle </h1>
+<h2> New Elephent Road in Dhaka  </h2>
+<h2> Photography in Bangladesh </h2>
+<h2> Call:01750-888000</h2>
+<h2> Opens at 10.00 AM-8.00 PM </h2>
+
+
+<h3>Photographers:1 Cheif Photographer</h3>
+<p>MILON KHAN </p>
+<p>For Premium Wedding Photography and Cinematography : 01750888000</p>
+<p>Number Of Prints:100 Copies 4R & 1 copy 12L</p>
+<p>Digital Album / Photo Book:Yes</p>
+<p>Number of Photos:Unlimited</p>
+<p>Special Edited Photos:100</p>
+<p> Milon's package price: 45000 <p>
+<p>Hours:5</p>
+<p>12L Matte prints: 2 copies</p>
+<p>4R Matte prints: 100 copies</p>
+
+
+
+<h3>Photographers:2 Senior photographer</h3>
+<p>Pratik shaha</p>
+<p>For Premium Wedding Photography and Cinematography : 01750888000</p>
+<p>Digital Album / Photo Book:Yes</p>
+<p>Number of Photos:Unlimited</p>
+<p>Hours:4</p>
+<p>pratik's package price: 35000 <p>
+<p>12L Matte prints: 2 copies</p>
+<p>4R Matte prints: 100 copies</p>
+<?php
+?>
+
+<form action="order.php">
+<input type="submit" value="Click to Book"></input>
+</form>
+
+</body>
+</html>
